@@ -21,7 +21,7 @@ the easiest way to download and install spbalance.
 ```
 url = 'https://github.com/ianzwaan/spbalance/archive/master.zip';
 usr = strtok(userpath, pathsep);
-dir = fullfile(usr, 'spbalance');
+dir = fullfile(usr, 'spbalance-master');
 unzip(url, usr); cd(dir);
 mex -largeArrayDims mexspbalance.c;
 addpath(dir); savepath;
